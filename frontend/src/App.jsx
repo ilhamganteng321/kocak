@@ -9,7 +9,7 @@ import ProfilePage from './pages/ProfilePage';
 import { Loader }from 'lucide-react';
 import { Toaster }  from 'react-hot-toast';
 import { useThemeStore } from './store/useThemeStore';
-import { useAuthStore } from './store/UseAuthStore';
+import { useAuthStore } from './store/useAuthStore';
 
 const App = () => {
   // Ambil state dari useAuthStore, bukan axiosInstance
